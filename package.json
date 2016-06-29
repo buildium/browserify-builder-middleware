@@ -1,0 +1,30 @@
+{
+  "name": "browserify-builder-middleware",
+  "version": "1.0.0",
+  "description": "Middleware for browserify-builder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "browserify-tool",
+    "browserify-builder"
+  ],
+  "author": "Buildium",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buildium/browserify-builder-middleware.git"
+  },
+  "bugs": {
+    "url": "https://github.com/buildium/browserify-builder-middleware/issues"
+  },
+  "homepage": "https://github.com/buildium/browserify-builder-middleware#readme",
+  "peerDependencies": {
+    "browserify-builder": "^1.0.1",
+    "watchify-middleware": "^1.6.0"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1"
+  }
+}
